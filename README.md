@@ -21,14 +21,14 @@ Each function has a separate test in `test/`. Some tests are written for Foundry
 - [x] sqrt
 - [x] mulWad
 - [x] mulWadUp
-- [ ] divWad
-- [ ] divWadUp
-- [ ] mulDivDown
-- [ ] mulDivUp
+- [x] divWad
+- [x] divWadUp
+- [x] mulDivDown
+- [ ] mulDivUp (TODO Equivalence: gets hung up not sure why yet)
 - [ ] rpow
-- [ ] unsafeMod
-- [ ] unsafeDiv
-- [ ] unsafeDivUp
+- [x] unsafeMod
+- [x] unsafeDiv
+- [x] unsafeDivUp
 
 ## Detailed Breakdown
 ### ✅ sqrt()

@@ -7,7 +7,7 @@ import "../../src/functions/PowWad.sol";
 // This one doesn't work for Halmos because it requires SIGNEXTEND op code, which isn't implemented yet.
 
 // To run:
-// -`forge test --match test__PowWadCorrectness` (fuzz test for correctness of Solady implementation)
+// -`forge test --mt test__PowWadCorrectness` (fuzz test for correctness of Solady implementation)
 
 contract PowWadTests is Test {
     PowWad c;
