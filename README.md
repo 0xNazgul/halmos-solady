@@ -1,5 +1,7 @@
 # Using Halmos to Formally Verify Solady's FixedPointMathLib
 
+**NOTE**: Was learning the basics of how to use Halmos and found this repo from [zobront](https://github.com/zobront). The repo, as of writing, is a year old. So I just took it as an exercise opportunity to finish off some of the function tests. Uploading it in case someone finds some use of it.
+
 Halmos is a symbolic bounded model checker. It takes in EVM bytecode, converts it to a series of equations, and uses Z3 Theorem Prover to verify the assertion or find counterexamples.
 
 Z3 struggles with certain types of equations, so we can't just formally verify everything. Depending on the situation, either:
